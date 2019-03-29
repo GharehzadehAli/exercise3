@@ -1,8 +1,8 @@
 package com.company;
 
 public abstract class PhoneCall {
-    private String phoneNumber;
-    private double price;
+    protected String phoneNumber;
+    protected double price;
     PhoneCall(String phoneNumber){
         this.price=0.0;
     }
@@ -15,5 +15,5 @@ public abstract class PhoneCall {
 
     public abstract String getPhoneNumber();
 
-    public abstract String getInformation();
+    public abstract void getInformation();
 }
