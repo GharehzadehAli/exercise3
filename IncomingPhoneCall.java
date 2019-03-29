@@ -1,7 +1,7 @@
 package com.company;
 
 public class IncomingPhoneCall extends PhoneCall {
-    IncomingPhoneCall(String phoneNumber){
+    IncomingPhoneCall(String phoneNumber) {
         super(phoneNumber);
         setPrice(0.02);
     }
@@ -18,6 +18,6 @@ public class IncomingPhoneCall extends PhoneCall {
 
     @Override
     public void display() {
-        System.out.println("PhoneNumber :"+getPhoneNumber()+" , rate : "+getPrice()+" , price "+getPrice());
+        System.out.println("PhoneNumber :" + getPhoneNumber() + " , rate : " + getPrice() + " , price " + getPrice());
     }
 }
