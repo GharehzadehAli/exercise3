@@ -17,7 +17,7 @@ public class IncomingPhoneCall extends PhoneCall {
     }
 
     @Override
-    public void getInformation() {
+    public void display() {
         System.out.println("PhoneNumber :"+getPhoneNumber()+" , rate : "+getPrice()+" , price "+getPrice());
     }
 }

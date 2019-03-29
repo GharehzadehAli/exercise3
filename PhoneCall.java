@@ -15,5 +15,5 @@ public abstract class PhoneCall {
 
     public abstract String getPhoneNumber();
 
-    public abstract void getInformation();
+    public abstract void display();
 }
